@@ -17,7 +17,9 @@ This directory focused on creating HTML blocks. Each task is designed to structu
 
 <h1 align="left">Mandatories:</h1>
 
-<p>The directory comprises exercice around html blocks. Each task aims to implement the necessary html to make the site.</p>
+<p>
+The directory comprises exercice around html blocks. Each task aims to implement the necessary html to make the site.
+</p>
 
 <br>
 
@@ -33,6 +35,6 @@ This directory focused on creating HTML blocks. Each task is designed to structu
 <br>
 
 <div align="center">
-<h3>SCHEMA:</h3>
-<img align="center" src="images/schema.png" />
+  <h3>SCHEMA:</h3>
+  <img align="center" src="images/schema.png" />
 </div>
