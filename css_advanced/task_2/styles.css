@@ -1,90 +1,107 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
 header {
-    background-image: url("./Bitmap.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 20px 60px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 10%;
+    background: transparent;
+}
+
+header img {
+    height: 40px;
+}
+
+header nav a {
     color: white;
-}
-
-header > a img {
-    width: 161px;
-}
-
-nav {
-    display: flex;
-    gap: 41px;
-}
-
-nav a {
-    color: white;
+    font-weight: bold;
+    margin-left: 30px;
     text-decoration: none;
-    font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
 }
 
-header > section {
-    width: 100%;
+/* HERO SECTION */
+.hero {
+    height: 100vh;
+    background: radial-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+    ), url("hero_background.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    padding: 130px 0 130px;
+    color: white;
+    padding-top: 100px;
 }
 
-header > section h1 {
-    font-size: 130px;
-    font-weight: bold;
-    margin: 0;
+.hero h1 {
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 20px;
 }
 
-header > section p {
+.hero .keywords {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    background: #C271FF;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
     font-size: 16px;
     font-weight: bold;
-}
-
-header > section button {
-    background-color: #C271FF;
-    border: none;
-    border-radius: 22px;
-    color: white;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 15px 30px;
     cursor: pointer;
 }
 
-header > section h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 80px;
+/* LEARN FROM THE PROS */
+.pros {
+    margin-top: 60px;
+    text-align: center;
 }
 
-header > section > div {
+.pros h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.pros h2 .purple {
+    color: #C271FF;
+}
+
+.pros .people {
     display: flex;
     justify-content: center;
-    gap: 70px;
-    margin-top: 40px;
-    padding-bottom: 80px;
+    gap: 60px;
 }
 
-header > section > div img {
+.pros .people img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    object-fit: cover;
 }
 
-header > section > div h3 {
-    font-size: 14px;
+.pros .people h3 {
+    margin-top: 10px;
     font-weight: bold;
-    color: #C271FF;
-    margin: 10px 0 5px;
 }
 
-header > section > div p {
-    font-size: 12px;
+.pros .people p {
     font-style: italic;
-    margin: 0;
+    font-size: 14px;
 }
