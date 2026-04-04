@@ -1,0 +1,43 @@
+/* FOOTER */
+.footer {
+    background: #071629;
+    color: white;
+    padding: 60px 0;
+}
+
+.footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* TOP PART: LOGO + SOCIAL ICONS */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 40px;
+}
+
+.footer-top img {
+    height: 40px;
+}
+
+/* SOCIAL ICONS */
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* COPYRIGHT */
+.footer p {
+    font-size: 14px;
+    opacity: 0.6;
+}
