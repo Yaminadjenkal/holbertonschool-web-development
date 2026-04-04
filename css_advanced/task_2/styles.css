@@ -5,12 +5,17 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* HEADER */
 header {
     position: absolute;
     top: 0;
     width: 100%;
-    padding: 20px 60px;
+    height: 80px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +51,7 @@ header nav a {
 }
 
 .hero h1 {
-    font-size: 70px;
+    font-size: 72px;
     font-weight: 900;
     margin-bottom: 20px;
 }
@@ -61,10 +66,10 @@ header nav a {
 .hero button {
     background: #C271FF;
     color: white;
-    padding: 15px 40px;
+    padding: 20px 50px;
     border-radius: 30px;
     border: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
 }
