@@ -1,0 +1,6 @@
+header {
+    background-image: url("./Bitmap.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+}
