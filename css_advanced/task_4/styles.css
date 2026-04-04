@@ -1,0 +1,81 @@
+/* VIDEOS SECTION */
+.videos {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.videos h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.videos h2 .purple {
+    color: #C271FF;
+}
+
+/* GRID DES 4 VIDEOS */
+.videos-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* CARD VIDEO */
+.video-card {
+    width: 250px;
+    text-align: left;
+}
+
+.video-card img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.video-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-card p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+}
+
+/* AUTEUR */
+.video-card .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.video-card .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.video-card .author span {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* RATING */
+.video-card .rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.video-card .rating img {
+    width: 15px;
+}
+
+.video-card .rating span {
+    margin-left: 10px;
+    font-size: 12px;
+    opacity: 0.7;
+}
