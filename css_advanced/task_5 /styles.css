@@ -1,0 +1,57 @@
+/* MEMBERSHIP SECTION */
+.membership {
+    background: #071629;
+    color: white;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.membership h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.membership h2 .purple {
+    color: #C271FF;
+}
+
+/* GRID DES 4 BLOCS */
+.membership-list {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 50px;
+}
+
+.member-item {
+    width: 200px;
+}
+
+.member-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.member-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.member-item p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* BOUTON */
+.membership button {
+    background: #C271FF;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
