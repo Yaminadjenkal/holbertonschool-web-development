@@ -1,0 +1,38 @@
+/* QUOTE SECTION */
+.quote {
+    background: #C271FF;
+    color: white;
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    gap: 40px;
+}
+
+.quote-container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.quote-text blockquote {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.quote-text .author {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.quote-text .role {
+    font-size: 16px;
+    opacity: 0.8;
+}
